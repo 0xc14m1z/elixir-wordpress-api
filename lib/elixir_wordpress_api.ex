@@ -1,0 +1,2 @@
+defmodule ElixirWordpressApi do
+end
