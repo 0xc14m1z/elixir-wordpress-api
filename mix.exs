@@ -1,4 +1,4 @@
-defmodule ElixirWordpressApi.Mixfile do
+defmodule Elixir_Wordpress_API.Mixfile do
   use Mix.Project
 
   def project do
