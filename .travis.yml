@@ -1,3 +1,5 @@
 language: elixir
 elixir:
   - 1.2
+script:
+  - mix espec --format=doc
