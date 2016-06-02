@@ -1,6 +1,6 @@
-defmodule ElixirWordpressApiTest do
+defmodule WordpressApiTest do
   use ExUnit.Case
-  doctest ElixirWordpressApi
+  doctest WordpressApi
 
   test "the truth" do
     assert 1 + 1 == 2
