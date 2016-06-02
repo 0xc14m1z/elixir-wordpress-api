@@ -7,7 +7,9 @@ defmodule Elixir_Wordpress_API.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     preferred_cli_env: [espec: :test]
+   ]
   end
 
   def application do
@@ -15,6 +17,8 @@ defmodule Elixir_Wordpress_API.Mixfile do
   end
 
   defp deps do
-    []
+    [
+      {:espec, "~> 0.8.21", only: :test},     # test framwork
+    ]
   end
 end
