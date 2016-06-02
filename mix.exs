@@ -19,6 +19,7 @@ defmodule Wordpress_API.Mixfile do
   defp deps do
     [
       {:espec, "~> 0.8.21", only: :test},     # test framwork
+      {:xmlrpc_client, "0.0.1", github: "ciamiz/elixir-xmlrpc-client"}
     ]
   end
 end
